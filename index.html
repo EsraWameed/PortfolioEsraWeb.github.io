@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <header>
+    <h1 id="homez" data-text="Web.Dev....">Web.Dev....</h1>
+    <img class="profpic"src="images/profile pic.jpg" alt="">
+
+    </header>
+<body>
+    <div class="navigation">
+    <ul>
+<li class="list active">
+    <a href="#Intro">
+          <span class="icon">
+            <ion-icon name="home-outline"></ion-icon>
+          </span>
+          <span class="text">Home</span>
+    </a>
+</li>
+<li class="list">
+    <a href="#Proj">
+          <span class="icon">
+            <ion-icon name="hammer-outline"></ion-icon>
+          </span>
+          <span class="text">Projects</span>
+    </a>
+</li>
+<li class="list">
+    <a href="#overlay">
+          <span class="icon">
+            <ion-icon name="mail-outline"></ion-icon>
+          </span>
+          <span class="text">Contacts</span>
+    </a>
+</li>
+<div class="indicator"></div>
+</ul> <br>
+
+<div class="Introd"id="Intro">
+<h1 data-text="Hello!">Hello!</h1>
+
+<div class="container">
+<h2 class="resume">Esra Al-Abduljabar</h2><hr>
+<p>Math and Science teacher who is passionate about learning web developmenet and providing an engaging and easy user experience.</p>
+<hr>
+<br>
+</div>
+
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <h2>Education</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Skills</h2>
+    <br>
+    <br>
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+  <li>Full Stack Web Developement, Udemy</li>
+  <li>BSc, Biology, University of the Fraser Valley</li>
+  <li>BEd, Secondary Math/Science, University of the Fraser Valley</li>
+  <br>
+  </div>
+
+  <div class="column right" style="background-color:#bbb;">
+    <br>
+  <li>Problem solving using innovative ways</li>
+  <li>Love collaborating with a team</li>
+  <li>Taking and implementing feedback</li>
+  </div>
+
+  <div class="titlelang">
+    <span class="icon">
+      <ion-icon name="language-outline"></ion-icon>
+    </span>
+    <span class="languageweb">Languages</span>
+  </div>
+
+  <div id="language_logos">
+  <img style="display: inline; margin: 0 5px;" title="heartica_logo" src="images/html.png" alt="" width="150" height="150" />
+  <img style="display: inline; margin: 0 5px;" title="mouseflow_logo" src="images/javascript.png"  alt="" width="150" height="150" />
+  <img style="display: inline; margin: 0 5px;" title="piiholo_logo" src="images/css.png" alt="" width="150" height="150" />
+  </div>
+
+  <div id="language_logos">
+  <img style="display: inline; margin: 0 5px;" title="heartica_logo" src="images/jquery.png" alt="" width="150" height="150" />
+  <img style="display: inline; margin: 0 5px;" title="mouseflow_logo" src="images/nodejs.png"  alt="" width="150" height="150" />
+  <img style="display: inline; margin: 0 5px;" title="piiholo_logo" src="images/mongodb.png" alt="" width="150" height="150" />
+  </div>
+
+  <a href="#homez"><img class="upbutton"src="images/upbutton.png" alt="">
+</a>
+
+<div class="Projd"id="Proj">
+  <h1 data-text="Projects">Projects</h1>
+<div class="roww">
+  <div class="columnn">
+    <a href="https://esrawameed.github.io/Esratodolist.github.io/"><img class="todoprojectt"src="images/todoproject.png" alt=""></a>
+
+  </div>
+  <div class="columnn">
+    <a href="https://esrawameed.github.io/JumpGame.github.io/"><img class="dood"src="images/doodlejump.png" alt=""></a>
+  </div>
+</div>
+<a href="#homez"><img class="upbutton"src="images/upbutton.png" alt="">
+</a>
+</div>
+
+
+
+
+
+<div id="overlay">
+  <a href = "mailto:esra.wameed@yahoo.com = Feedback&body = Message">
+<img class="mailme"src="images/emailme.png" alt="">
+</a>
+  <form onsubmit="event.preventDefault(); validateForm()">
+    <h1>Contact Me</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Your name">
+    <small class="error"></small>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" placeholder="Your email">
+    <small class="error"></small>
+
+    <label for="message">Message:</label>
+    <textarea id="message" placeholder="Your message" rows="6"></textarea>
+    <small class="error"></small>
+
+<div class="center">
+  <input type="submit" value="Send Message">
+  <p id="success"></p>
+</div>
+
+  </form>
+  <a href="#homez"><img class="upbutton"src="images/upbutton.png" alt="">
+</a>
+</div>
+
+
+
+
+
+
+
+
+<script src="page.js" charset="utf-8"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
